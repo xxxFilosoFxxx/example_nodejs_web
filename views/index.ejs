@@ -2,10 +2,23 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> <%= obj.title %> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><%=title %></title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="/js/jquery.min.js" type="text/javascript"></script></script>
+    <script src="/js/bootstrap.min.js" type="text/javascript"></script></script>
 </head>
 <body>
+    <%- include ('blocks/header.ejs'); -%>
+
     <h1> Пока </h1>
+
+    <%- include ('blocks/footer.ejs'); -%>
+
+
 </body>
 </html>
