@@ -1,5 +1,6 @@
 .header{
  height: 95vh;
+ font-family: serif;
 }
 
 .black-text {
@@ -227,6 +228,7 @@ section .grey-text {
   background: #41444B;
   color: rgba(255, 255, 255, 0.6);
   padding: 60px 0;
+  font-family: serif;
 }
 .footer a {
   color: rgba(255, 255, 255, 0.8);
